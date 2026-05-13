@@ -4,8 +4,8 @@ Los items de la configuracion seguidos en este repositorio son:
 app.js
 README.md
 .gitignore
-package-lock.json   (agregado este commit)
-package.json        (agregado este commit)
+package-lock.json
+package.json
 
 controllers/ 
 -- tareas.controller.js
