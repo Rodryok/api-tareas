@@ -16,7 +16,7 @@ routes/
 Features:
 feature-detalle-tarea <- M Peñaloza
 En esta version, la ejecucion de app.js permite consultar la api por una entrada especifica
-en el listado actual de tareas EJ: http://localhost:3000/1 -> devuelve la tarea con el ID 1. 
+en el listado actual de tareas EJ: http://localhost:3000/tareas/1 -> devuelve la tarea con el ID 1. 
 
 para instalar: 
 - npm init -y
