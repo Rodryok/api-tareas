@@ -13,7 +13,20 @@ const getTareaById = (req, res) => {
     if (!tarea) return res.status(404).send('Tarea not found');
     res.json(tarea);
 }
+const crearTarea = (req, res) => {
+
+    const nuevaTarea = {
+        id: tareas.length + 1,
+        titulo: req.body.titulo
+    };
+
+    tareas.push(nuevaTarea);
+
+    res.status(201).json(nuevaTarea);
+};
+
 module.exports = {
     obtenerTareas,
-    getTareaById
+    getTareaById,
+    crearTarea
 }
